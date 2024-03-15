@@ -5,8 +5,8 @@ import torch
 import torchaudio
 import os
 
-from server.tortoise.api import TextToSpeech
-from server.tortoise.utils.audio import load_voice, load_voices
+from tortoise.api import TextToSpeech
+from tortoise.utils.audio import load_voice, load_voices
 
 app = FastAPI()
 
